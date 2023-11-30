@@ -1,15 +1,3 @@
-# Elysia with Bun runtime
+# Coffee API to assess frontend applicants
 
-## Getting Started
-To get started with this template, simply paste this command into your terminal:
-```bash
-bun create elysia ./elysia-example
-```
-
-## Development
-To start the development server run:
-```bash
-bun run dev
-```
-
-Open http://localhost:3000/ with your browser to see the result.
+This is a deliberately broken API to assess frontend applicants in 1-1.5 hours.
