@@ -9,6 +9,7 @@ on:
 jobs:
   deploy:
     name: Deployment
+    permissions: write-all
     runs-on: ubuntu-latest
 
     steps:
