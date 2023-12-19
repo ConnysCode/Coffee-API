@@ -4,7 +4,7 @@ import hot from "./sources/hot";
 import { cors } from "@elysiajs/cors";
 
 const app = new Elysia()
-  .use(cors({ methods: ["GET"], origin: true }))
+  .use(cors({ origin: true }))
   .get("/iced", () => iced)
   .get("/hot", () => hot)
   .listen(3001);
