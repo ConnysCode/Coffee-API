@@ -4,10 +4,10 @@ import hot from "./sources/hot";
 import { cors } from "@elysiajs/cors";
 
 const app = new Elysia()
-  .use(cors({ methods: ["GET"], origin: "*" }))
+  .use(cors({ methods: ["GET"], origin: true }))
   .get("/iced", () => iced)
   .get("/hot", () => hot)
-  .listen(3000);
+  .listen(3001);
 
 console.log(
   `Coffee API is running at ${app.server?.hostname}:${app.server?.port}`
